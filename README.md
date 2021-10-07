@@ -7,26 +7,30 @@ I created a simple app showing a simple way to hide listview header while scroll
 
 # Structure
 
-  Column(
-          children: [
-            ScrollToHide(
-                controller: scrollController,
-                child: Container(
-                  color:Colors.blueGrey,
-                  child: Center(child: Text("Auto hide on scroll")),
-                )),
-            Expanded(
-                child: ListView.builder(
-              itemCount: items.length,
-              controller: scrollController,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  title: Text(items[index]),
-                );
-              },
-            )),
-          ],
-        ));
+
+    Column( 
+    children: [ 
+    ScrollToHide( 
+    controller: scrollController,
+    child: Container( 
+    color:Colors.blueGrey, 
+    child: Center(
+    child: Text("Auto hide on scroll")), 
+    )), 
+    Expanded( 
+    child: ListView.builder( 
+    itemCount: items.length, 
+    controller: scrollController,
+     itemBuilder: (context, index) { 
+     return ListTile( 
+     title: Text(items[index]),
+      ); 
+      }, 
+      )), 
+      ], 
+      ));
+
+
 	
 
 
