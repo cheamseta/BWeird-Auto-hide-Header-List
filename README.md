@@ -8,7 +8,7 @@ I created a simple app showing a simple way to hide listview header while scroll
 # Structure
 
 
-![enter image description here](https://firebasestorage.googleapis.com/v0/b/firebase-lindana.appspot.com/o/assets%2Fcode.png?alt=media&token=8c0930af-a8ef-4e78-b700-1b100145b9a7)
+![enter image description here](https://firebasestorage.googleapis.com/v0/b/firebase-lindana.appspot.com/o/assets%2FScreen%20Shot%202021-10-08%20at%2012.42.35%20AM.png?alt=media&token=fcf2c319-6cd3-4924-b8e1-2be6bc4f4eb4)
 
 
 ## Screenshot
