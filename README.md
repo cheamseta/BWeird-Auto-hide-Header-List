@@ -28,7 +28,6 @@ I created a simple app showing a simple way to hide listview header while scroll
           ],
         ));
 	
-## Libraries
 
 
 ## Screenshot
