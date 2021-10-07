@@ -8,30 +8,7 @@ I created a simple app showing a simple way to hide listview header while scroll
 # Structure
 
 
-    Column( 
-    children: [ 
-    ScrollToHide( 
-    controller: scrollController,
-    child: Container( 
-    color:Colors.blueGrey, 
-    child: Center(
-    child: Text("Auto hide on scroll")), 
-    )), 
-    Expanded( 
-    child: ListView.builder( 
-    itemCount: items.length, 
-    controller: scrollController,
-     itemBuilder: (context, index) { 
-     return ListTile( 
-     title: Text(items[index]),
-      ); 
-      }, 
-      )), 
-      ], 
-      ));
-
-
-	
+![enter image description here](https://firebasestorage.googleapis.com/v0/b/firebase-lindana.appspot.com/o/assets%2Fcode.png?alt=media&token=8c0930af-a8ef-4e78-b700-1b100145b9a7)
 
 
 ## Screenshot
